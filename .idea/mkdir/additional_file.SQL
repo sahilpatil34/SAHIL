@@ -1,13 +1,11 @@
-
-
 select
  city,
  name,
  address,
  aaccount,
- gfasbill,
+ gasbill,
  aadhar number,
  PAN card
  from citybase
 where city = "maskenhatti"
-order by city
+order by city,name
